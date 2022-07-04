@@ -3,6 +3,9 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt spaceship
 
+# Load profile
+oh-my-posh --init --shell pwsh --config .config\powershell\gabriel.omp.json | Invoke-Expression
+
 # History
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
