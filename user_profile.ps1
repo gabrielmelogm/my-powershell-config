@@ -1,6 +1,5 @@
 # Prompt
 Import-Module posh-git
-Set-PoshPrompt spaceship
 
 # Load profile
 oh-my-posh init pwsh --config ~\.config\powershell\gabriel.omp.json | Invoke-Expression
